@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+great_beyond_format_type:
+  book: great_beyond
+  book_format_type: pdf
+
+great_beyond_format_type2:
+  book: great_beyond
+  book_format_type: paper
+
+brother_jack_format_type:
+  book: brother_jack
+  book_format_type: paper

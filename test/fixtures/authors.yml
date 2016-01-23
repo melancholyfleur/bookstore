@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+mandrake:
+  first_name: Arthur
+  last_name: Mandrake
+
+skellington:
+  first_name: Todd
+  last_name: Skellington

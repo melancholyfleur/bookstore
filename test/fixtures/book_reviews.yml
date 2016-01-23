@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+great_beyond_rating:
+  book: great_beyond
+  rating: 4
+
+great_beyond_rating2:
+  book: great_beyond
+  rating: 3
+
+jack_rating:
+  book: brother_jack
+  rating: 2
+
+jack_rating2:
+  book: brother_jack
+  rating: 3

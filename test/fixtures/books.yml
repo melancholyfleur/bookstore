@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+great_beyond:
+  title: The Great Beyond
+  author: mandrake
+  publisher: lordbyron
+
+brother_jack:
+  title: My Brother Jack and Beyond
+  author: skellington
+  publisher: skelbooks

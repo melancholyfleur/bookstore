@@ -49,6 +49,8 @@ ActiveRecord::Schema.define(version: 20160121224235) do
     t.datetime "updated_at",   null: false
   end
 
+  add_index "books", ["publisher_id", "author_id"], name: "index_books_on_publisher_id_and_author_id"
+
   create_table "publishers", force: :cascade do |t|
     t.string   "name"
     t.datetime "created_at", null: false

@@ -9,7 +9,7 @@ class Book < ActiveRecord::Base
   end
 
   def average_rating
-    ratings = BookReview.where(book_id: id).map(&:rating)
+    ratings = book_reviews.map(&:rating)
     ratings.inject{ |sum, rating| sum + rating }.to_f / ratings.size
   end
 
